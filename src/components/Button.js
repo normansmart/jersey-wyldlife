@@ -2,7 +2,7 @@ const Button = ({ }) => {
 
     return (
 
-        <button className='button' >  </button>
+        <button className='button' > SUBMIT </button>
 
     );
 }

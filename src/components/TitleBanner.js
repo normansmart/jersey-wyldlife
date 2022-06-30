@@ -15,8 +15,6 @@ function LandingPage({ backgroundImage }) {
 
                 <h3> Serving Northern New Jersey and Surrounding Areas </h3>
 
-                {/* Entry form for complaint and personal information */}
-
                 <div class="landing-info-contact">
 
                     <img class="landing-info-image" src="images/phone-icon.png" />
@@ -25,6 +23,8 @@ function LandingPage({ backgroundImage }) {
 
                 </div>
 
+                {/* Entry form for complaint and personal information */}
+                
                 <form>
                     <input type="text" name="name" placeholder="Name" />
                     <input type="text" name="number" placeholder="Phone number" />
