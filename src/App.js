@@ -1,19 +1,23 @@
-import logo from './logo.svg';
+
 import React from 'react';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { useState } from 'react';
 import './App.css';
+import data from "./db.json";
+
+import HomePage from './components/HomePage';
+
 
 function App() {
+
+
+
+  
+
   return (
+
     <div className="App">
 
-
-      <div>
-
-
-
-      </div>
-
+  <HomePage />
 
     </div>
   );

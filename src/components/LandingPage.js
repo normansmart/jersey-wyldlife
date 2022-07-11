@@ -1,23 +1,25 @@
 import React from "react";
 
 //Landing page for each page of site
-function LandingPage({ backgroundImage }) {
+function LandingPage({ backgroundimage }) {
 
 
     return (
         //container for the landing page. The section of the page itself has a background image dependent on the parameter input from parent
-        <div className="title-header" style={{ backgroundImage: URL({ backgroundImage }) }}>
+        <>
+
+        <div className="title-header" style={{backgroundImage: `url(${backgroundimage})`}}>
 
             {/* container for the info box on the side in landing page container */}
             <div className="title-text">
 
-                <img class="landing-logo" src="images/home-logo.png" />
+                <img className="landing-logo" src= {require("./images/home-logo.png")} />
 
                 <h3> Serving Northern New Jersey and Surrounding Areas </h3>
 
-                <div class="landing-info-contact">
+                <div className="landing-info-contact">
 
-                    <img class="landing-info-image" src="images/phone-icon.png" />
+                    <img className="landing-info-image" src={require("./images/phone-icon.png")}  />
 
                     <p> 973-232-2212 </p>
 
@@ -43,6 +45,12 @@ function LandingPage({ backgroundImage }) {
             </div>
 
         </div>
+
+
+
+
+
+        </>
 
     )
 

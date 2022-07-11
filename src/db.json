@@ -1,0 +1,248 @@
+{
+    "services": [
+        {
+            "id": 0,
+            "name": "PROPERTY INSPECTION",
+            "shortDescription": "Once an inspection is requested and scheduled, one of our removal experts will arrive on site to inspect the extent of any damage and determine the type of animal causing damage.",
+            "mainDescription": "",
+            "textColor": "#3C1A15",
+            "backgroundColor": "#F8C6A9"
+        },
+        {
+            "id": 1,
+            "name": "WILDLIFE EXCLUSION",
+            "shortDescription": "This is a multi-step process starting with a property inspection to locate entry points. Once all entry points are located, exclusion devices are installed to allow wildlife to safely exit.",
+            "mainDescription": "",
+            "textColor": "#263d3d",
+            "backgroundColor": "#C7D6D8"
+        },
+        {
+            "id": 2,
+            "name": "PREVENTATIVE MAINTENANCE",
+            "shortDescription": " Most homes are built to code by construction companies with little or no input from wildlife experts, leaving small openings that wildlife can use to gain entry into your property.",
+            "mainDescription": "",
+            "textColor": "#3F4717",
+            "backgroundColor": "#DDE1B2"
+        },
+        {
+            "id": 3,
+            "name": "ANIMAL CARCASS REMOVAL",
+            "shortDescription": "When nature takes its course, there may be unfavorable situations left behind. To help prevent the spread of parasites and disease, those carcasses must be disposed.",
+            "mainDescription": "",
+            "textColor": "#48311F",
+            "backgroundColor": "#D9CFBE"
+        },
+        {
+            "id": 4,
+            "name": "RODENT PREVENTION",
+            "shortDescription": "Rodents can gain entry to a home by chewing holes or using crevices. After a thorough inspection is completed all crevices will be sealed to prevent future rodent activity.",
+            "mainDescription": "",
+            "textColor": "#29432B",
+            "backgroundColor": "#BAD3AF"
+        },
+        {
+            "id": 5,
+            "name": "LIVE TRAPPING",
+            "shortDescription": "Trapping is our last line of defense and in some cases, the only option. In the instance that trapping is the only option available Contact Us: 973-572-6461",
+            "mainDescription": "",
+            "textColor": "#454037",
+            "backgroundColor": "#d3c2af"
+        },
+        {
+            "id": 6,
+            "name": "ATTIC ENVIRONMENT CLEANING",
+            "shortDescription": "Multiple types of nuisance wildlife invade attics and other spaces in your home, and each one of them presents their own set of problems with damage and contamination.",
+            "mainDescription": "",
+            "textColor": "#2B170E",
+            "backgroundColor": "#dabc9a"
+        },
+        {
+            "id": 7,
+            "name": "EXTERIOR VENT COVERS",
+            "shortDescription": "Bird guards are installed over bathroom exhaust fans and dryer vents to prevent nesting birds from clogging the vents with nesting material.",
+            "mainDescription": "",
+            "textColor": "#302f2f",
+            "backgroundColor": "#D9CFBE"
+        },
+        {
+            "id": 8,
+            "name": "CHIMNEY CAPS",
+            "shortDescription": "Keep out racoons, squirrels, birds and many other nuisance wildlife by installing covers on all the ventilation exits on your home.",
+            "mainDescription": "",
+            "textColor": "#ffffff",
+            "backgroundColor": "#844a4a"
+        }
+    ],
+
+    "animals": [
+        {
+            "id": 0,
+            "name": "Bat",
+            "image": "./images/animal-library/bat.png",
+            "background": "#120707",
+            "textColor": "#E4E4E4",
+            "info": {
+                "family": "Chiroptera - (Mammals)",
+                "foodType": "Omnivore",
+                "habitat": "Tree foliage and underbark, caves and dark spaces",
+                "animalInfo": "There are nine species of bats that are considered regular residents of New Jersey, including the Big Brown Bat, Little Brown Bat, Eastern Pipistrelle, Small-Footed Myotis, Northern Long-Eared Bat, Indiana Bat (state and federally endangered), Hoary Bat, Red Bat and Silver-Haired Bat. Health risks associated with bats include Histoplasmosis (a common lung disease) associated with Guano, an increase in Arthropods (dermestid beetles, cockroaches, and bat bugs), and rabies which is less than 1% of bats."
+            },
+            "warnings": [
+                {
+                    "id": 0,
+                    "icon": "images/animal-library/warning-logos/bat/icarian.png",
+                    "warningName": "Icarian",
+                    "warningMessage": "Bats are the only mammal that can fly. Their wings are actually their hands and have their thumb and four fingers span from the front to the back of the wing."
+                },
+                {
+                    "id": 1,
+                    "icon": "images/animal-library/warning-logos/bat/nofruit.png",
+                    "warningName": "No Bats. No Fruit",
+                    "warningMessage": "Over 300 species of fruit depend on bats for pollination such as bananas, avocados and mangoes. Bats also help spread seeds for nuts, figs and cacao."
+                },
+                {
+                    "id": 2,
+                    "icon": "images/animal-library/warning-logos/bat/snack.png",
+                    "warningName": "Midnight Snack",
+                    "warningMessage": "One Little Brown Bat can ingest up to 1,200 mosquito-sized insects in an hour and up to 3,000 insects in a single night."
+                }
+            ]
+        },
+
+        {
+            "id": 1,
+            "name": "Chipmunk",
+            "image": "images/animal-library/chipmunk.png",
+            "background": "#3C1A15",
+            "textColor": "#F8C6A9",
+            "info": {
+                "family": "Squirrel - (Rodents)",
+                "foodType": "Omnivore",
+                "habitat": "Open forests, woodlot edges, areas in or around homes",
+                "animalInfo": "Easter chipmunks are small striped ground squirrels found throughout North America. They spend their time grounded, and when startled, run with their tails upright. Chipmunks are diurnal (active during the day and night) throughout Spring, Summer and Fall, but will rely on their food caches with minimal activity during the Winter months. When not in forests and wooded areas they will find protective cover by burrowing extensive tunnels under patios, stairs, retention walls, and foundations. They can enter buildings along the sill plate, through dryer vents and under garage doors."
+            },
+            "warnings": [
+                {
+                    "id": 0,
+                    "icon": "images/animal-library/warning-logos/chipmunk/downhatch.png",
+                    "warningName": "Down the Hatch",
+                    "warningMessage": "Chipmunks dig widespread burrows as deep as 3 feet underground that connect its main entrance to a nesting chamber, storage chambers, and various side pockets and escape tunnels."
+                },
+                {
+                    "id": 1,
+                    "icon": "images/animal-library/warning-logos/chipmunk/nuts.png",
+                    "warningName": "Food Hoarder",
+                    "warningMessage": "To prepare for the Winter season, chipmunks begin to store large quantities of acorns and seeds."
+                },
+                {
+                    "id": 2,
+                    "icon": "images/animal-library/warning-logos/chipmunk/backpack.png",
+                    "warningName": "Built-in Backpack",
+                    "warningMessage": "Chipmunks have pouches inside of their cheeks in which they store food when foraging."
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Coyote",
+            "image": "images/animal-library/coyote.png",
+            "background": "#E9D9D0",
+            "textColor": "#48311F",
+            "info": {
+                "family": "Canine - (Mammals)",
+                "foodType": "Omnivore",
+                "habitat": "Open areas; prairie and desert.",
+                "animalInfo": "Coyotes vary in size, color and appearance, but are usually light gray to brownish-yellow with a light gray to cream-colored belly. Their activity will mostly occur at night and in the early morning throughout the year, but their diet will change based on the season. During the Winter and Spring, they will primarily hunt the prey species that are most abundant in their territory which can consist of rodents, rabbits, livestock, and sporadically eat small domestic animals. Throughout late Summer and Fall, their diet consists of fruits, vegetables and different types of plant material. Coyotes typically use natural sheltered areas such as burrows, hollow trees, rock crevices, but could seek shelter under sheds and decks."
+            },
+            "warnings": [
+                {
+                    "id": 0,
+                    "icon": "images/animal-library/warning-logos/coyote/aggressive.png",
+                    "warningName": "Agressive",
+                    "warningMessage": "Coyotes have occasionally attacked small pets and livestock whereas attacks on humans have been extremely uncommon. However, attacks are increasing in areas where coyotes are being fed human food or have access to garbage. "
+                },
+                {
+                    "id": 1,
+                    "icon": "images/animal-library/warning-logos/coyote/nut.png",
+                    "warningName": "Built For Speed",
+                    "warningMessage": "Adult coyotes are remarkably fast with the capability of running up to 43MPH when in pursuit."
+                },
+                {
+                    "id": 2,
+                    "icon": "images/animal-library/warning-logos/chipmunk/backpack.png",
+                    "warningName": "Evolve. Adapt.",
+                    "warningMessage": "Coyotes frequently dwell right under human noses in urban and suburban cities. Most major cities in the United States have a coyote population."
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Flying Squirrel",
+            "image": "images/animal-library/flyingsquirrel.png",
+            "background": "#ECF4F4",
+            "textColor": "#425858",
+            "info": {
+                "family": "Squirrel - (Rodents)",
+                "foodType": "Omnivore",
+                "habitat": "Tree cavities, birdhouses, attics.",
+                "animalInfo": "The Flying Squirrel is the smallest squirrel in our area averaging between 2-3 1⁄2 ounces with dense, soft fur of grayish-brown tones with a creamy-colored underside. Their most distinctive characteristics are broad webs of skin connecting the fore and hind legs at the wrists (to aid in gliding), large black eyes, and a flattened tail. Their diet consists of acorns, hickory nuts, seeds, berries, bird eggs, tree bark, and occasionally insects. Flying Squirrel sightings are rare due to their nocturnal nature. However, homeowners are more likely to come in contact with flyers if they have taken up residence in your attic or walls. They will gnaw on electrical wires causing a fire hazard."
+            },
+            "warnings": [
+                {
+                    "id": 0,
+                    "icon": "images/animal-library/warning-logos/flyingsquirrel/daredevil.png",
+                    "warningName": "Daredevil",
+                    "warningMessage": "Flying squirrels have Patagia (extra skin folds) and wrist spurs that allow them to glide up to 300 feet and make 180-degree turns midair."
+                },
+                {
+                    "id": 1,
+                    "icon": "images/animal-library/warning-logos/flyingsquirrel/spy.png",
+                    "warningName": "Super Spy",
+                    "warningMessage": "Flying squirrels have large eyes that allow them to gather more light during the night to aid in their flight from tree to tree."
+                },
+                {
+                    "id": 2,
+                    "icon": "images/animal-library/warning-logos/flyingsquirrel/firefly.png",
+                    "warningName": "Firefly",
+                    "warningMessage": "Under ultraviolet light, the skin of flying squirrels fluoresces a bright bubblegum pink color. This uncommon ability helps them locate one another in low light winter conditions."
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Red Fox",
+            "image": "images/animal-library/fox.png",
+            "background": "#FAE9D6",
+            "textColor": "#6F3111",
+            "info": {
+                "family": "Canine - (Mammals)",
+                "foodType": "Carnivore",
+                "habitat": "Wooded, brushy, and rocky areas.",
+                "animalInfo": "Foxes are light orange-red in color with black legs, a light-colored underbody, and a white-tipped tail. They are typically 3 feet in length and can weigh anywhere between 10-15 pounds. Foxes eat mostly mice, voles, bird eggs, rabbits, insects, and a variety of berries and cherries. They will also eat livestock, carrion, and cats. Foxes are largely crepuscular (active during dawn and dusk hours) but are also nocturnal. It is not uncommon to see them foraging during the day, especially during the breeding season. Foxes may find shelter under sheds, decks, abandoned woodchuck burrows, brush piles and hollow trees, but can dig their own den as well."
+            },
+            "warnings": [
+                {
+                    "id": 0,
+                    "icon": "images/animal-library/warning-logos/fox/hearing.png",
+                    "warningName": "Heightened Senses",
+                    "warningMessage": "Hearing is the most important sense as it helps them navigate and hunt at night. Foxes can hear low-frequency sounds, rodents digging underground, and can reportedly hear a watch ticking 40 yards away."
+                },
+                {
+                    "id": 1,
+                    "icon": "images/animal-library/warning-logos/fox/diseases.png",
+                    "warningName": "Super Spy",
+                    "warningMessage": "Flying squirrels have large eyes that allow them to gather more light during the night to aid in their flight from tree to tree."
+                },
+                {
+                    "id": 2,
+                    "icon": "images/animal-library/warning-logos/flyingsquirrel/firefly.png",
+                    "warningName": "Firefly",
+                    "warningMessage": "Under ultraviolet light, the skin of flying squirrels fluoresces a bright bubblegum pink color. This uncommon ability helps them locate one another in low light winter conditions."
+                }
+            ]
+        }
+
+
+
+    ]
+}

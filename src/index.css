@@ -11,3 +11,304 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+
+
+.title-header{
+  width: 100%;
+  height: 100vh;    
+ 
+
+
+}
+
+
+
+
+.title-text{
+  width: 700px;
+
+text-align: center;
+float: right;
+
+margin-top: 400px;
+
+background-color: rgb(255, 255, 255);
+
+}
+
+
+.landing-logo{
+  width: 500px;
+  
+}
+
+
+
+.description{
+  width: 700px;
+  
+  font-size: 30px;
+  font-weight: 600;
+  
+  color: #fefffe;
+ 
+  margin: auto;
+
+  letter-spacing: -0.03em;
+
+  text-shadow: 2px 2px 5px #06160b59
+
+
+}
+
+
+
+.landing-info-container{
+  width: 700px;
+
+  display: inline-block;
+
+}
+
+
+
+
+.landing-info{
+
+  width: 100%;
+
+  
+  display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+.landing-info-contact{
+  width: 100%;
+  background-color: #fefffe;
+  border-radius: 50px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+  border: none;
+  cursor: pointer;
+
+  box-shadow: 0px 0px 10px #00000041;
+
+}
+
+
+.landing-info-image{
+
+  width: 35px;
+  float: left;
+  margin-left: 0px;
+
+
+}
+
+
+.landing-info-contact p{
+  width: 68%;
+  font-size: 22px;
+  font-weight: 500;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  float: left;
+  color: #285e4ae0;
+}
+
+
+.contact-link{
+  width: 38%;
+  text-decoration: none;
+  margin: 4%;
+  margin-top: 10px;
+}
+
+
+.intro-banner{
+  width: 1300px;
+
+
+  margin: auto;
+  display: inline-block;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.intro-text{
+  width: 45%;
+ float: right;
+ 
+}
+
+.intro-text h1{
+  font-size: 50px;
+ 
+  margin: 0px;
+  color: #000000c9;
+}
+
+.intro-text p {
+  font-size: 23px;
+  font-weight: 500;
+  line-height: 1.9em;
+  letter-spacing: -0.03em;
+  color: #133a2bc2;
+}
+
+
+.intro-image{
+  width: 50%;
+  float: left;
+  
+}
+
+.intro-image img{
+  width: 500px;
+  height: 500px;
+  border-radius: 10px;
+  float: right;
+}
+
+
+
+.right-container {
+  width: 100%;
+
+  text-align: center;
+
+  background-image: url('./components/images/background-home-2.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+
+  padding-bottom: 150px;
+
+}
+
+
+
+
+
+
+.services-container {
+  width: 1300px;
+  margin: auto;
+  display: inline-block;
+  margin-top: 130px;
+}
+
+.service-box {
+  width: 375px;
+  height: 350px;
+  border-radius: 10px;
+  margin: 29px;
+  float: left;
+  box-shadow: 0px 0px 10px #00000045;
+}
+
+
+
+
+.service-header {
+  width: 375px;
+  position: absolute;
+}
+
+
+
+.service-header-text {
+  font-size: 32px;
+  font-weight: 600;
+  color: #201414b7;
+  text-align: left;
+  margin-bottom: 10px;
+  margin-top: 60px;
+  margin-left: 5%;
+  line-height: 45px;
+}
+
+
+.service-description {
+  width: 375px;
+  height: 165px;
+
+
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+.service-description-text {
+  width: 90%;
+
+  margin: auto;
+  margin-top: 0px;
+
+  font-size: 19px;
+  font-weight: 600;
+  text-align: left;
+  line-height: 30px;
+  color: #663F3A;
+
+
+}
+
+
+
+.view-more-button {
+  width: 160px;
+  height: 50px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #132f3a;
+  margin: 0;
+
+  border-radius: 250px;
+  border: solid .5px rgba(255, 255, 255, 0.192);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+  position: relative;
+  top: 325px;
+  left: 180px;
+
+
+  box-shadow: 0px 0px 10px #00000045;
+
+
+}
+
+
+
+
+.service-link {
+  text-decoration: none;
+
+}
+
+
+
+
+.service-link:hover {
+  background-color: white;
+  color: black;
+}
+
