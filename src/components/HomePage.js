@@ -1,5 +1,4 @@
 import React from "react";
-import { useState , useEffect } from "react";
 import data from "../db.json";
 import LandingPage from "./LandingPage";
 import ServiceList from "./ServiceList";
@@ -43,14 +42,7 @@ console.log(service)
 
             </div>
 
-
-
             <ServiceList services={service} />
-
-
-
-
-
 
         </>
     )

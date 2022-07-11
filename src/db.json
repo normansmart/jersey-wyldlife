@@ -78,7 +78,7 @@
         {
             "id": 0,
             "name": "Bat",
-            "image": "./images/animal-library/bat.png",
+            "image": "./images/animallibrary/bat.png",
             "background": "#120707",
             "textColor": "#E4E4E4",
             "info": {
@@ -90,19 +90,19 @@
             "warnings": [
                 {
                     "id": 0,
-                    "icon": "images/animal-library/warning-logos/bat/icarian.png",
+                    "icon": "./components/images/animal-library/warning-logos/bat/icarian.png",
                     "warningName": "Icarian",
                     "warningMessage": "Bats are the only mammal that can fly. Their wings are actually their hands and have their thumb and four fingers span from the front to the back of the wing."
                 },
                 {
                     "id": 1,
-                    "icon": "images/animal-library/warning-logos/bat/nofruit.png",
+                    "icon": "./components/images/animal-library/warning-logos/bat/nofruit.png",
                     "warningName": "No Bats. No Fruit",
                     "warningMessage": "Over 300 species of fruit depend on bats for pollination such as bananas, avocados and mangoes. Bats also help spread seeds for nuts, figs and cacao."
                 },
                 {
                     "id": 2,
-                    "icon": "images/animal-library/warning-logos/bat/snack.png",
+                    "icon": "./components/images/animal-library/warning-logos/bat/snack.png",
                     "warningName": "Midnight Snack",
                     "warningMessage": "One Little Brown Bat can ingest up to 1,200 mosquito-sized insects in an hour and up to 3,000 insects in a single night."
                 }
@@ -112,7 +112,7 @@
         {
             "id": 1,
             "name": "Chipmunk",
-            "image": "images/animal-library/chipmunk.png",
+            "image": "./images/animallibrary/chipmunk.png",
             "background": "#3C1A15",
             "textColor": "#F8C6A9",
             "info": {
@@ -124,19 +124,19 @@
             "warnings": [
                 {
                     "id": 0,
-                    "icon": "images/animal-library/warning-logos/chipmunk/downhatch.png",
+                    "icon": "./components/images/animal-library/warning-logos/chipmunk/downhatch.png",
                     "warningName": "Down the Hatch",
                     "warningMessage": "Chipmunks dig widespread burrows as deep as 3 feet underground that connect its main entrance to a nesting chamber, storage chambers, and various side pockets and escape tunnels."
                 },
                 {
                     "id": 1,
-                    "icon": "images/animal-library/warning-logos/chipmunk/nuts.png",
+                    "icon": "./components/images/animal-library/warning-logos/chipmunk/nuts.png",
                     "warningName": "Food Hoarder",
                     "warningMessage": "To prepare for the Winter season, chipmunks begin to store large quantities of acorns and seeds."
                 },
                 {
                     "id": 2,
-                    "icon": "images/animal-library/warning-logos/chipmunk/backpack.png",
+                    "icon": "./components/images/animal-library/warning-logos/chipmunk/backpack.png",
                     "warningName": "Built-in Backpack",
                     "warningMessage": "Chipmunks have pouches inside of their cheeks in which they store food when foraging."
                 }
@@ -145,7 +145,7 @@
         {
             "id": 2,
             "name": "Coyote",
-            "image": "images/animal-library/coyote.png",
+            "image": "./images/animallibrary/coyote.png",
             "background": "#E9D9D0",
             "textColor": "#48311F",
             "info": {
@@ -157,19 +157,19 @@
             "warnings": [
                 {
                     "id": 0,
-                    "icon": "images/animal-library/warning-logos/coyote/aggressive.png",
+                    "icon": "./components/images/animal-library/warning-logos/coyote/aggressive.png",
                     "warningName": "Agressive",
                     "warningMessage": "Coyotes have occasionally attacked small pets and livestock whereas attacks on humans have been extremely uncommon. However, attacks are increasing in areas where coyotes are being fed human food or have access to garbage. "
                 },
                 {
                     "id": 1,
-                    "icon": "images/animal-library/warning-logos/coyote/nut.png",
+                    "icon": "./components/images/animal-library/warning-logos/coyote/nut.png",
                     "warningName": "Built For Speed",
                     "warningMessage": "Adult coyotes are remarkably fast with the capability of running up to 43MPH when in pursuit."
                 },
                 {
                     "id": 2,
-                    "icon": "images/animal-library/warning-logos/chipmunk/backpack.png",
+                    "icon": "./components/images/animal-library/warning-logos/chipmunk/backpack.png",
                     "warningName": "Evolve. Adapt.",
                     "warningMessage": "Coyotes frequently dwell right under human noses in urban and suburban cities. Most major cities in the United States have a coyote population."
                 }
@@ -178,7 +178,7 @@
         {
             "id": 3,
             "name": "Flying Squirrel",
-            "image": "images/animal-library/flyingsquirrel.png",
+            "image": "./images/animallibrary/flyingsquirrel.png",
             "background": "#ECF4F4",
             "textColor": "#425858",
             "info": {
@@ -190,19 +190,19 @@
             "warnings": [
                 {
                     "id": 0,
-                    "icon": "images/animal-library/warning-logos/flyingsquirrel/daredevil.png",
+                    "icon": "./components/images/animal-library/warning-logos/flyingsquirrel/daredevil.png",
                     "warningName": "Daredevil",
                     "warningMessage": "Flying squirrels have Patagia (extra skin folds) and wrist spurs that allow them to glide up to 300 feet and make 180-degree turns midair."
                 },
                 {
                     "id": 1,
-                    "icon": "images/animal-library/warning-logos/flyingsquirrel/spy.png",
+                    "icon": "./components/images/animal-library/warning-logos/flyingsquirrel/spy.png",
                     "warningName": "Super Spy",
                     "warningMessage": "Flying squirrels have large eyes that allow them to gather more light during the night to aid in their flight from tree to tree."
                 },
                 {
                     "id": 2,
-                    "icon": "images/animal-library/warning-logos/flyingsquirrel/firefly.png",
+                    "icon": "./components/images/animal-library/warning-logos/flyingsquirrel/firefly.png",
                     "warningName": "Firefly",
                     "warningMessage": "Under ultraviolet light, the skin of flying squirrels fluoresces a bright bubblegum pink color. This uncommon ability helps them locate one another in low light winter conditions."
                 }
@@ -211,7 +211,7 @@
         {
             "id": 4,
             "name": "Red Fox",
-            "image": "images/animal-library/fox.png",
+            "image": "./images/animallibrary/fox.png",
             "background": "#FAE9D6",
             "textColor": "#6F3111",
             "info": {
@@ -223,19 +223,19 @@
             "warnings": [
                 {
                     "id": 0,
-                    "icon": "images/animal-library/warning-logos/fox/hearing.png",
+                    "icon": "./components/images/animal-library/warning-logos/fox/hearing.png",
                     "warningName": "Heightened Senses",
                     "warningMessage": "Hearing is the most important sense as it helps them navigate and hunt at night. Foxes can hear low-frequency sounds, rodents digging underground, and can reportedly hear a watch ticking 40 yards away."
                 },
                 {
                     "id": 1,
-                    "icon": "images/animal-library/warning-logos/fox/diseases.png",
+                    "icon": "./components/images/animal-library/warning-logos/fox/diseases.png",
                     "warningName": "Super Spy",
                     "warningMessage": "Flying squirrels have large eyes that allow them to gather more light during the night to aid in their flight from tree to tree."
                 },
                 {
                     "id": 2,
-                    "icon": "images/animal-library/warning-logos/flyingsquirrel/firefly.png",
+                    "icon": "./components/images/animal-library/warning-logos/flyingsquirrel/firefly.png",
                     "warningName": "Firefly",
                     "warningMessage": "Under ultraviolet light, the skin of flying squirrels fluoresces a bright bubblegum pink color. This uncommon ability helps them locate one another in low light winter conditions."
                 }

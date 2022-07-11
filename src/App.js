@@ -5,6 +5,7 @@ import './App.css';
 import data from "./db.json";
 
 import HomePage from './components/HomePage';
+import AnimalLibrary from './components/AnimalLibrary';
 
 
 function App() {
@@ -17,7 +18,7 @@ function App() {
 
     <div className="App">
 
-  <HomePage />
+ <AnimalLibrary />
 
     </div>
   );
