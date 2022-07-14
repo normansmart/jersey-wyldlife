@@ -10,33 +10,26 @@ function ContractForm({ ContractSubmit }) {
             <div className="admin-contact-form">
                 <form className="admin-form">
                     <input id="name" type="text" name="name" placeholder="Client Full Name" />
-                    <input type="text" name="number" placeholder="Street Address Line 1" />
-                    <input type="text" name="number" placeholder="Street Address Line 2" />
-                    <input type="text" name="number" placeholder="City" />
-                    <input type="text" name="number" placeholder="State" />
-                    <input type="text" name="number" placeholder="Zip Code" />
-                    <input type="text" name="number" placeholder="Phone Number" />
-                    <input type="text" name="number" placeholder="Email Address" />
-                    <input type="text" name="email" placeholder="Date of inspection" />
-                    <input type="text" name="number" placeholder="Nuisance Animal" />
-                    <input type="text" name="number" placeholder="Inspection Fee" />
-                    <input type="text" name="number" placeholder="Trap Installation Fee" />
-                    <input type="text" name="number" placeholder="Price for Animal Removal" />
-                    <input type="text" name="number" placeholder="Exclusion and Preventative Work" />
-                    <input type="text" name="number" placeholder="Subtotal" />
-                    <input type="text" name="number" placeholder="Applicable Sales Tax" />
-                    <input type="text" name="number" placeholder="Deposit" />
-                    <input type="text" name="number" placeholder="Total" />
-                    <input type="text" name="number" placeholder="Signed and Paid?" />
+                    <input type="text" name="address" placeholder="Street Address/City/State/Zip Code" />
+                    <input type="text" name="number" placeholder="number" />
+                    <input type="text" name="email" placeholder="email" />
+                    <input type="text" name="DOI" placeholder="Date of inspection" />
+                    <input type="text" name="nuisanceAnimal" placeholder="Nuisance Animal" />
+                    <input type="text" name="inspectionFee" placeholder="Inspection Fee" />
+                    <input type="text" name="trapFee" placeholder="Trap Installation Fee" />
+                    <input type="text" name="PAR" placeholder="Price for Animal Removal" />
+                    <input type="text" name="EPW" placeholder="Exclusion and Preventative Work" />
+                    <input type="text" name="subtotal" placeholder="Subtotal" />
+                    <input type="text" name="AST" placeholder="Applicable Sales Tax" />
+                    <input type="text" name="deposit" placeholder="Deposit" />
+                    <input type="text" name="total" placeholder="Total" />
+                    <input type="text" name="signedPaid" placeholder="Signed and Paid?" />
 
 
                     <button id="button"
                         type="submit"
                         name="submit"
-                        className="submit" onClick={ ContractSubmit()}>
-
-
-                            
+                        className="submit" onClick={()=> ContractSubmit()}>
                         SUBMIT </button>
 
                 </form>

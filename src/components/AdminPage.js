@@ -11,6 +11,9 @@ const AdminPage = () => {
 
 
 
+
+
+
     fetch("http://localhost:9292/")
         .then(response => response.json())
         .then(json => {
@@ -19,14 +22,16 @@ const AdminPage = () => {
         )
 
 
-    function addNewContract() {
+    function addNewContract(e) {
 
 
         fetch(`http://localhost:9292/animal_control_requests`, {
             method: 'POST',
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify(
-                
+                {
+
+                }
             )
         })
             .then(setContracts())
@@ -39,7 +44,6 @@ const AdminPage = () => {
         <>
 
             <ContractForm ContractSubmit={addNewContract} />
-
 
         </>
     )
