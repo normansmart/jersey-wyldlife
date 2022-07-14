@@ -10,9 +10,13 @@ function ContractForm({ ContractSubmit }) {
             <div className="admin-contact-form">
                 <form className="admin-form">
                     <input id="name" type="text" name="name" placeholder="Client Full Name" />
-                    <input type="text" name="address" placeholder="Street Address/City/State/Zip Code" />
-                    <input type="text" name="number" placeholder="number" />
-                    <input type="text" name="email" placeholder="email" />
+                    <input type="text" name="address" placeholder="Street Address Line 1" />
+                    <input type="text" name="address2" placeholder="Street Address Line 2" />
+                    <input type="text" name="city" placeholder="City" />
+                    <input type="text" name="state" placeholder="State" />
+                    <input type="text" name="zipCode" placeholder="Zip Code" />
+                    <input type="text" name="number" placeholder="Phone Number" />
+                    <input type="text" name="email" placeholder="Email Address" />
                     <input type="text" name="DOI" placeholder="Date of inspection" />
                     <input type="text" name="nuisanceAnimal" placeholder="Nuisance Animal" />
                     <input type="text" name="inspectionFee" placeholder="Inspection Fee" />
@@ -29,7 +33,10 @@ function ContractForm({ ContractSubmit }) {
                     <button id="button"
                         type="submit"
                         name="submit"
-                        className="submit" onClick={()=> ContractSubmit()}>
+                        className="submit" onClick={(e)=> ContractSubmit()}>
+
+
+                            
                         SUBMIT </button>
 
                 </form>
