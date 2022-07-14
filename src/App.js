@@ -1,9 +1,8 @@
 
 import React from 'react';
-import { useState } from 'react';
 import './App.css';
-import data from "./db.json";
-
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import NavBar from './components/Navigation';
 import HomePage from './components/HomePage';
 import AnimalLibrary from './components/AnimalLibrary';
 
@@ -12,15 +11,25 @@ function App() {
 
 
 
-  
-
   return (
 
-    <div className="App">
+   
 
- <AnimalLibrary />
+     <Router>
 
-    </div>
+        <NavBar />
+
+
+        <Routes>
+
+        <Route path="/" exact element={<HomePage/>} />
+        <Route path="/animals"  element={<AnimalLibrary/>} />
+
+        </Routes>
+
+      </Router>
+
+   
   );
 }
 

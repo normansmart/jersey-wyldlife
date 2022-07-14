@@ -1,28 +1,82 @@
 import React from "react";
 
-import TipBox from "./TipBox";
 
-
-function AnimalCard({animal}) {
+function AnimalCard({ animal }) {
 
 
     return (
         <>
 
-            <div className="animal-container" >
+            <div className="animal-container" style={{ backgroundColor: animal.background }}>
 
                 <div className="info-responsive">
 
-                    {/* <div class="warnings-container">
+                    <div className="warnings-container" style={{ color: animal.textColor }}>
 
-                        <p class="warning-header"> HELPFUL FACTS</p>
+                        <p className="warning-header"> HELPFUL FACTS</p>
 
-                        <TipBox warning={warning} />
+                        <div className="tip-box">
 
-                    </div> */}
+                            <img src={animal.warnings.icon1} />
+
+                            <div className="tip">
+                                <p className="tip-header">
+                                    {animal.warnings.warningName1}
+                                </p>
+
+                                <p className="tip-info">
+                                    {animal.warnings.warningMessage1}
+                                </p>
+
+                            </div>
+
+                        </div>
 
 
-                    <div className="info-container">
+
+                        <div className="tip-box">
+
+                            <img src={animal.warnings.icon2} />
+
+                            <div className="tip">
+                                <p className="tip-header">
+                                    {animal.warnings.warningName2}
+                                </p>
+
+                                <p className="tip-info">
+                                    {animal.warnings.warningMessage2}
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+
+                        <div className="tip-box">
+
+                            <img src={animal.warnings.icon3} />
+
+                            <div className="tip">
+                                <p className="tip-header">
+                                    {animal.warnings.warningName3}
+                                </p>
+
+                                <p className="tip-info">
+                                    {animal.warnings.warningMessage3}
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+
+
+
+                    <div className="info-container" style={{ color: animal.textColor }}>
 
                         <div className="category-info">
 
@@ -62,7 +116,7 @@ function AnimalCard({animal}) {
 
 
 
-                <img className="animal-image" src={animal.image}/>
+                <img className="animal-image" src={animal.image} />
 
 
             </div>

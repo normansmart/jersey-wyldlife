@@ -73,7 +73,6 @@
             "backgroundColor": "#844a4a"
         }
     ],
-
     "animals": [
         {
             "id": 0,
@@ -87,60 +86,41 @@
                 "habitat": "Tree foliage and underbark, caves and dark spaces",
                 "animalInfo": "There are nine species of bats that are considered regular residents of New Jersey, including the Big Brown Bat, Little Brown Bat, Eastern Pipistrelle, Small-Footed Myotis, Northern Long-Eared Bat, Indiana Bat (state and federally endangered), Hoary Bat, Red Bat and Silver-Haired Bat. Health risks associated with bats include Histoplasmosis (a common lung disease) associated with Guano, an increase in Arthropods (dermestid beetles, cockroaches, and bat bugs), and rabies which is less than 1% of bats."
             },
-            "warnings": [
-                {
-                    "id": 0,
-                    "icon": "./components/images/animal-library/warning-logos/bat/icarian.png",
-                    "warningName": "Icarian",
-                    "warningMessage": "Bats are the only mammal that can fly. Their wings are actually their hands and have their thumb and four fingers span from the front to the back of the wing."
-                },
-                {
-                    "id": 1,
-                    "icon": "./components/images/animal-library/warning-logos/bat/nofruit.png",
-                    "warningName": "No Bats. No Fruit",
-                    "warningMessage": "Over 300 species of fruit depend on bats for pollination such as bananas, avocados and mangoes. Bats also help spread seeds for nuts, figs and cacao."
-                },
-                {
-                    "id": 2,
-                    "icon": "./components/images/animal-library/warning-logos/bat/snack.png",
-                    "warningName": "Midnight Snack",
-                    "warningMessage": "One Little Brown Bat can ingest up to 1,200 mosquito-sized insects in an hour and up to 3,000 insects in a single night."
-                }
-            ]
+            "warnings": {
+                "icon1": "./images/animallibrary/warning-logos/bat/icarian.png",
+                "warningName1": "Icarian",
+                "warningMessage1": "Bats are the only mammal that can fly. Their wings are actually their hands and have their thumb and four fingers span from the front to the back of the wing.",
+                "icon2": "./images/animallibrary/warning-logos/bat/nofruit.png",
+                "warningName2": "No Bats. No Fruit",
+                "warningMessage2": "Over 300 species of fruit depend on bats for pollination such as bananas, avocados and mangoes. Bats also help spread seeds for nuts, figs and cacao.",
+                "icon3": "./images/animallibrary/warning-logos/bat/snack.png",
+                "warningName3": "Midnight Snack",
+                "warningMessage3": "One Little Brown Bat can ingest up to 1,200 mosquito-sized insects in an hour and up to 3,000 insects in a single night."
+            }
         },
-
         {
             "id": 1,
             "name": "Chipmunk",
             "image": "./images/animallibrary/chipmunk.png",
-            "background": "#3C1A15",
-            "textColor": "#F8C6A9",
+            "background": "#F8C6A9",
+            "textColor": "#3C1A15",
             "info": {
                 "family": "Squirrel - (Rodents)",
                 "foodType": "Omnivore",
                 "habitat": "Open forests, woodlot edges, areas in or around homes",
                 "animalInfo": "Easter chipmunks are small striped ground squirrels found throughout North America. They spend their time grounded, and when startled, run with their tails upright. Chipmunks are diurnal (active during the day and night) throughout Spring, Summer and Fall, but will rely on their food caches with minimal activity during the Winter months. When not in forests and wooded areas they will find protective cover by burrowing extensive tunnels under patios, stairs, retention walls, and foundations. They can enter buildings along the sill plate, through dryer vents and under garage doors."
             },
-            "warnings": [
-                {
-                    "id": 0,
-                    "icon": "./components/images/animal-library/warning-logos/chipmunk/downhatch.png",
-                    "warningName": "Down the Hatch",
-                    "warningMessage": "Chipmunks dig widespread burrows as deep as 3 feet underground that connect its main entrance to a nesting chamber, storage chambers, and various side pockets and escape tunnels."
-                },
-                {
-                    "id": 1,
-                    "icon": "./components/images/animal-library/warning-logos/chipmunk/nuts.png",
-                    "warningName": "Food Hoarder",
-                    "warningMessage": "To prepare for the Winter season, chipmunks begin to store large quantities of acorns and seeds."
-                },
-                {
-                    "id": 2,
-                    "icon": "./components/images/animal-library/warning-logos/chipmunk/backpack.png",
-                    "warningName": "Built-in Backpack",
-                    "warningMessage": "Chipmunks have pouches inside of their cheeks in which they store food when foraging."
-                }
-            ]
+            "warnings": {
+                "icon1": "./images/animallibrary/warning-logos/chipmunk/downhatch.png",
+                "warningName1": "Down the Hatch",
+                "warningMessage1": "Chipmunks dig widespread burrows as deep as 3 feet underground that connect its main entrance to a nesting chamber, storage chambers, and various side pockets and escape tunnels.",
+                "icon2": "./images/animallibrary/warning-logos/chipmunk/nuts.png",
+                "warningName2": "Food Hoarder",
+                "warningMessage2": "To prepare for the Winter season, chipmunks begin to store large quantities of acorns and seeds.",
+                "icon3": "./images/animallibrary/warning-logos/chipmunk/backpack.png",
+                "warningName3": "Built-in Backpack",
+                "warningMessage3": "Chipmunks have pouches inside of their cheeks in which they store food when foraging."
+            }
         },
         {
             "id": 2,
@@ -154,26 +134,17 @@
                 "habitat": "Open areas; prairie and desert.",
                 "animalInfo": "Coyotes vary in size, color and appearance, but are usually light gray to brownish-yellow with a light gray to cream-colored belly. Their activity will mostly occur at night and in the early morning throughout the year, but their diet will change based on the season. During the Winter and Spring, they will primarily hunt the prey species that are most abundant in their territory which can consist of rodents, rabbits, livestock, and sporadically eat small domestic animals. Throughout late Summer and Fall, their diet consists of fruits, vegetables and different types of plant material. Coyotes typically use natural sheltered areas such as burrows, hollow trees, rock crevices, but could seek shelter under sheds and decks."
             },
-            "warnings": [
-                {
-                    "id": 0,
-                    "icon": "./components/images/animal-library/warning-logos/coyote/aggressive.png",
-                    "warningName": "Agressive",
-                    "warningMessage": "Coyotes have occasionally attacked small pets and livestock whereas attacks on humans have been extremely uncommon. However, attacks are increasing in areas where coyotes are being fed human food or have access to garbage. "
-                },
-                {
-                    "id": 1,
-                    "icon": "./components/images/animal-library/warning-logos/coyote/nut.png",
-                    "warningName": "Built For Speed",
-                    "warningMessage": "Adult coyotes are remarkably fast with the capability of running up to 43MPH when in pursuit."
-                },
-                {
-                    "id": 2,
-                    "icon": "./components/images/animal-library/warning-logos/chipmunk/backpack.png",
-                    "warningName": "Evolve. Adapt.",
-                    "warningMessage": "Coyotes frequently dwell right under human noses in urban and suburban cities. Most major cities in the United States have a coyote population."
-                }
-            ]
+            "warnings": {
+                "icon1": "./images/animallibrary/warning-logos/coyote/aggressive.png",
+                "warningName1": "Agressive",
+                "warningMessage1": "Coyotes have occasionally attacked small pets and livestock whereas attacks on humans have been extremely uncommon. However, attacks are increasing in areas where coyotes are being fed human food or have access to garbage. ",
+                "icon2": "./images/animallibrary/warning-logos/coyote/run.png",
+                "warningName2": "Built For Speed",
+                "warningMessage2": "Adult coyotes are remarkably fast with the capability of running up to 43MPH when in pursuit.",
+                "icon3": "./images/animallibrary/warning-logos/coyote/evolve.png",
+                "warningName3": "Evolve. Adapt.",
+                "warningMessage3": "Coyotes frequently dwell right under human noses in urban and suburban cities. Most major cities in the United States have a coyote population."
+            }
         },
         {
             "id": 3,
@@ -187,26 +158,17 @@
                 "habitat": "Tree cavities, birdhouses, attics.",
                 "animalInfo": "The Flying Squirrel is the smallest squirrel in our area averaging between 2-3 1⁄2 ounces with dense, soft fur of grayish-brown tones with a creamy-colored underside. Their most distinctive characteristics are broad webs of skin connecting the fore and hind legs at the wrists (to aid in gliding), large black eyes, and a flattened tail. Their diet consists of acorns, hickory nuts, seeds, berries, bird eggs, tree bark, and occasionally insects. Flying Squirrel sightings are rare due to their nocturnal nature. However, homeowners are more likely to come in contact with flyers if they have taken up residence in your attic or walls. They will gnaw on electrical wires causing a fire hazard."
             },
-            "warnings": [
-                {
-                    "id": 0,
-                    "icon": "./components/images/animal-library/warning-logos/flyingsquirrel/daredevil.png",
-                    "warningName": "Daredevil",
-                    "warningMessage": "Flying squirrels have Patagia (extra skin folds) and wrist spurs that allow them to glide up to 300 feet and make 180-degree turns midair."
-                },
-                {
-                    "id": 1,
-                    "icon": "./components/images/animal-library/warning-logos/flyingsquirrel/spy.png",
-                    "warningName": "Super Spy",
-                    "warningMessage": "Flying squirrels have large eyes that allow them to gather more light during the night to aid in their flight from tree to tree."
-                },
-                {
-                    "id": 2,
-                    "icon": "./components/images/animal-library/warning-logos/flyingsquirrel/firefly.png",
-                    "warningName": "Firefly",
-                    "warningMessage": "Under ultraviolet light, the skin of flying squirrels fluoresces a bright bubblegum pink color. This uncommon ability helps them locate one another in low light winter conditions."
-                }
-            ]
+            "warnings": {
+                "icon1": "./images/animallibrary/warning-logos/flyingsquirrel/daredevil.png",
+                "warningName1": "Daredevil",
+                "warningMessage1": "Flying squirrels have Patagia (extra skin folds) and wrist spurs that allow them to glide up to 300 feet and make 180-degree turns midair.",
+                "icon2": "./images/animallibrary/warning-logos/flyingsquirrel/spy.png",
+                "warningName2": "Super Spy",
+                "warningMessage2": "Flying squirrels have large eyes that allow them to gather more light during the night to aid in their flight from tree to tree.",
+                "icon3": "./images/animallibrary/warning-logos/flyingsquirrel/firefly.png",
+                "warningName3": "Firefly",
+                "warningMessage3": "Under ultraviolet light, the skin of flying squirrels fluoresces a bright bubblegum pink color. This uncommon ability helps them locate one another in low light winter conditions."
+            }
         },
         {
             "id": 4,
@@ -220,29 +182,185 @@
                 "habitat": "Wooded, brushy, and rocky areas.",
                 "animalInfo": "Foxes are light orange-red in color with black legs, a light-colored underbody, and a white-tipped tail. They are typically 3 feet in length and can weigh anywhere between 10-15 pounds. Foxes eat mostly mice, voles, bird eggs, rabbits, insects, and a variety of berries and cherries. They will also eat livestock, carrion, and cats. Foxes are largely crepuscular (active during dawn and dusk hours) but are also nocturnal. It is not uncommon to see them foraging during the day, especially during the breeding season. Foxes may find shelter under sheds, decks, abandoned woodchuck burrows, brush piles and hollow trees, but can dig their own den as well."
             },
-            "warnings": [
-                {
-                    "id": 0,
-                    "icon": "./components/images/animal-library/warning-logos/fox/hearing.png",
-                    "warningName": "Heightened Senses",
-                    "warningMessage": "Hearing is the most important sense as it helps them navigate and hunt at night. Foxes can hear low-frequency sounds, rodents digging underground, and can reportedly hear a watch ticking 40 yards away."
-                },
-                {
-                    "id": 1,
-                    "icon": "./components/images/animal-library/warning-logos/fox/diseases.png",
-                    "warningName": "Super Spy",
-                    "warningMessage": "Flying squirrels have large eyes that allow them to gather more light during the night to aid in their flight from tree to tree."
-                },
-                {
-                    "id": 2,
-                    "icon": "./components/images/animal-library/warning-logos/flyingsquirrel/firefly.png",
-                    "warningName": "Firefly",
-                    "warningMessage": "Under ultraviolet light, the skin of flying squirrels fluoresces a bright bubblegum pink color. This uncommon ability helps them locate one another in low light winter conditions."
-                }
-            ]
+            "warnings": {
+                "icon1": "./images/animallibrary/warning-logos/fox/hearing.png",
+                "warningName1": "Heightened Senses",
+                "warningMessage1": "Hearing is the most important sense as it helps them navigate and hunt at night. Foxes can hear low-frequency sounds, rodents digging underground, and can reportedly hear a watch ticking 40 yards away.",
+                "icon2": "./images/animallibrary/warning-logos/fox/disease.png",
+                "warningName2": "Diseases",
+                "warningMessage2": "Foxes can carry Mange — a skin disease caused by parasitic mites. Mange is communicable to animals and people by close contact. If you suspect your dog has been in close contact with a fox and is showing signs of hair loss and peeling skin, call your veterinarian immediately.",
+                "icon3": "./images/animallibrary/warning-logos/fox/rabies.png",
+                "warningName3": "Rabies",
+                "warningMessage3": "In rare cases, foxes may carry Rabies. If you or your pet is bitten by a fox, call-911 immediately."
+            }
+        },
+        {
+            "id": 5,
+            "name": "Grey Squirrel",
+            "image": "./images/animallibrary/grey squirrel.png",
+            "background": "#C7D6D8",
+            "textColor": "#565D5E",
+            "info": {
+                "family": "Squirrel - (Rodents)",
+                "foodType": "Omnivore",
+                "habitat": "Woodlands and brushy areas",
+                "animalInfo": "Eastern gray squirrels have predominantly gray fur but it can have a reddish tint with a white underside and a bushy tail. They have an overall length of 12-20 inches including the tail and weigh between 1-1.5 pounds. Their diet consists of acorns, hickory nuts, walnuts, fungi, corn, tree bark, fruits and berries. During the daytime, squirrels move within their home range (1-100 acres) according to the availability of food. Gray squirrels typically build leaf nests or use tree cavities for denning. They will also take advantage of uncapped chimneys and chew into soffits and eaves gaining access to attics. Once inside, squirrels will scratch and chew wires (fire hazard), damage gable vents, screens, insulation and weaken rafters by their constant gnawing."
+            },
+            "warnings": {
+                "icon1": "./images/animallibrary/warning-logos/grey squirrel/haphazard.png",
+                "warningName1": "Haphazard Poise",
+                "warningMessage1": "Squirrels ZigZag to avoid predators. Phenomenal strategy against hawks. Not very effective against cars, though. Consider slowing down.",
+                "icon2": "./images/animallibrary/warning-logos/grey squirrel/life.png",
+                "warningName2": "Circle of Life",
+                "warningMessage2": "Squirrels scatter cache, which means they store individual nuts and seeds around their home range, and neglect to dig some of them up which results in the growth of new trees.",
+                "icon3": "./images/animallibrary/warning-logos/grey squirrel/thanks.png",
+                "warningName3": "Dental Plan",
+                "warningMessage3": "The front teeth of gray squirrels continuously grow at a rate of 6 inches per year. This means they must maintain their sharpness and cleanliness by continually gnawing and chewing on various items in and around the home."
+            }
+        },
+        {
+            "id": 6,
+            "name": "Groundhog",
+            "image": "./images/animallibrary/groundhog.png",
+            "background": "#DDE1B2",
+            "textColor": "#3F4717",
+            "info": {
+                "family": "Squirrel - (Rodents)",
+                "foodType": "Herbivore",
+                "habitat": "Open areas, backyards, and woodland edges",
+                "animalInfo": "Groundhogs (woodchucks) are large members of the squirrel family that have a grizzled gray-brown color averaging 16-26 inches long and up to 12 pounds. Groundhogs have a diet consisting of grass, flowers, vegetables, fruits, nuts, and crops. During the daytime they move within 50-150 feet from their dens in areas such as farmlands, backyards, and wooded or bushy areas. Groundhogs will deeply hibernate from the time of the first heavy frost through early Spring where their burrow aids in mating, weaning young, and protection. Their burrows can undermine the foundations of sheds, decks, pools and walkways on a homeowner’s property."
+            },
+            "warnings": {
+                "icon1": "./images/animallibrary/warning-logos/groundhog/hatch.png",
+                "warningName1": "Down The Hatch",
+                "warningMessage1": "During hibernation, a groundhog's temperature drops from 99°F to 40°F and its heartbeat slows from 80bpm to 5bpm. During this time, groundhogs survive on the fat reserves that accumulate from their hefty Summer and Fall diets.",
+                "icon2": "./images/animallibrary/warning-logos/groundhog/xxl.png",
+                "warningName2": "Big Fella",
+                "warningMessage2": "Groundhogs are the largest species in the squirrel family.",
+                "icon3": "./images/animallibrary/warning-logos/groundhog/weather.png",
+                "warningName3": "Rodent Meteorologist",
+                "warningMessage3": "Groundhog Day is celebrated on February 2 nd where if a groundhog comes out of its burrow and sees its shadow there will presumably be 6 more weeks of Winter; no shadow means an early Spring."
+            }
+        },
+        {
+            "id": 7,
+            "name": "Oppossum",
+            "image": "./images/animallibrary/oppossum.png",
+            "background": "#F8EEDB",
+            "textColor": "#48311F",
+            "info": {
+                "family": "Marsupial - (Mammals)",
+                "foodType": "Omnivore",
+                "habitat": "Forested or brushy habitats",
+                "animalInfo": "Opossums are cat sized mammals that resemble a silver rat, with naked ears, a long scaly tail, and silver tipped fur. They can grow to a length of 26 inches and may weigh up to 14 pounds. Their diet consists of mice, worms, garbage, fruit, berries, and even roadkill. Although nocturnal, a nursing female searching for food can be seen during the day as well as young and inexperienced opossums that are not yet streetwise. Opossums are very adaptable and will thrive in nearly any habitat, from wilderness to inner cities, provided that their basic necessities are available. Natural habitats include hollow logs, trees, and abandoned squirrel nests, but may also seek shelter under decks and sheds provided there are unused burrows."
+            },
+            "warnings": {
+                "icon1": "./images/animallibrary/warning-logos/oppossum/playing.png",
+                "warningName1": "Playing Possum",
+                "warningMessage1": "When threatened, an opossum will hiss and show its teeth to ward off predators. If that doesn’t work it plays dead which, for some reason, usually results in the predator walking away.",
+                "icon2": "./images/animallibrary/warning-logos/oppossum/tick.png",
+                "warningName2": "Tick Control",
+                "warningMessage2": "t’s estimated that a single opossum eliminates over 5,000 ticks from the environment each year.",
+                "icon3": "./images/animallibrary/warning-logos/oppossum/immune.png",
+                "warningName3": "Predatory Immunity",
+                "warningMessage3": "Opossums have a natural resistance to rabies and botulism which means that they aren't likely to spread these diseases. They are also immune to the toxins in bee and scorpion stings."
+            }
+        },
+        {
+            "id": 8,
+            "name": "Raccoon",
+            "image": "./images/animallibrary/raccoon.png",
+            "background": "#D9CFBE",
+            "textColor": "#2B170E",
+            "info": {
+                "family": "Procyonidae - (Mammals)",
+                "foodType": "Omnivore",
+                "habitat": "Woodlands, marshes in rural and urban areas",
+                "animalInfo": "Raccoons are easily recognized with their grizzled gray and black coat, a black “mask” over their eyes and a ringed tail. They can range in size from 16-31 inches in length and can weigh anywhere between 8-20 pounds. Their diet consists of fish, frogs, small mammals, snails, insects, eggs, fruits, berries, nuts, garden crops, and garbage. Raccoons are nocturnal and relatively silent but may be active during the day, especially in the Spring and Summer when the female is nursing and raising young. Den sites may include brush piles, hollow trees, rock crevices, storm sewers and ground burrows. However, in developed areas, they will also den in attics, chimneys, sheds, under decks and in crawl spaces where they can threaten the health and safety of people and pets. Raccoons can cause damage to lawns, gardens, attic vents, eaves, siding, insulation and create fire hazards by chewing wires."
+            },
+            "warnings": {
+                "icon1": "./images/animallibrary/warning-logos/raccoon/hazard.png",
+                "warningName1": "Hazardous",
+                "warningMessage1": "Raccoons carry several parasites, diseases and bacteria that could affect you or your pet. This includes Leptospirosis, Salmonella, Roundworm and Rabies.",
+                "icon2": "./images/animallibrary/warning-logos/raccoon/mask.png",
+                "warningName2": "Masked Bandit",
+                "warningMessage2": "People associate their famous black masks with thieves and tricksters, but there is actually a purpose. The black masks aid their vision by absorbing light to reduce glare.",
+                "icon3": "./images/animallibrary/warning-logos/raccoon/hands.png",
+                "warningName3": "It's All In The Hands",
+                "warningMessage3": "Raccoons possess amazing dexterity that gives them the ability to open doors, jars, bottles and latches. They are also great climbers which allows them to access food and shelter."
+            }
+        },
+        {
+            "id": 9,
+            "name": "Skunk",
+            "image": "./images/animallibrary/skunk.png",
+            "background": "#FFFDF6",
+            "textColor": "#010101",
+            "info": {
+                "family": "Mephitidae - (Mammals)",
+                "foodType": "Omnivore",
+                "habitat": "Old fields, pastures, and woodland edges",
+                "animalInfo": "Skunks are easily distinguishable, they have 2 white stripes along each side of their body which contrast their black fur. They are similar in size to a house cat with an average weight of 6-8 pounds and length of 12-18 inches (excluding their tail). Their diet mainly consists of insects, earthworms, fruit, nuts, small amphibians and mammals. Skunks prefer to nest in hollow logs, brush piles, and abandoned woodchuck holes. They also den under decks, porches, crawl spaces and other secluded areas. They are nocturnal, they become seasonally dormant during the coldest months of the winter. Skunks are known carriers of rabies. Therefore, any skunks observed behaving abnormally or sickly should be avoided."
+            },
+            "warnings": {
+                "icon1": "./images/animallibrary/warning-logos/skunk/loaded.png",
+                "warningName1": "Loaded Chamber",
+                "warningMessage1": "When threatened, skunks release a powerful sulfuric gas from their anal glands with a ranges of up to 10 feet and an odor radius of 1.5 miles.",
+                "icon2": "./images/animallibrary/warning-logos/skunk/snake.png",
+                "warningName2": "Snake Control",
+                "warningMessage2": "Skunks are immune to snake venom and are known to include snakes in their diet.",
+                "icon3": "./images/animallibrary/warning-logos/skunk/scare.png",
+                "warningName3": "Scare Tactics",
+                "warningMessage3": "The contrast of fur (black and white) helps skunks be seen as a threat to other animals."
+            }
+        },
+        {
+            "id": 10,
+            "name": "Snake",
+            "image": "./images/animallibrary/snake.png",
+            "background": "#BAD3AF",
+            "textColor": "#0B210D",
+            "info": {
+                "family": "Serpent - (Reptiles)",
+                "foodType": "Carnivore",
+                "habitat": "From forests and swamps to grasslands and deserts.",
+                "animalInfo": "There are about 22 species of snakes found in New Jersey some of which include Eastern Garter Snake, Milk Snake, Black Rat Snake, and Northern Water Snake. Snakes vary in length and color depending on age and species. In urban and suburban areas they are drawn to wood piles, stone walls, gardens, and occasionally sheds, garages and basements. Their diet consists of rats, mice, chipmunks, baby birds, bird eggs, insects, and salamanders. By feeding on rodent and insect carriers, snakes help prevent the spread of disease to people, pets, and livestock. Snakes rarely leave signs of their presence, but you may notice slither tracks, shed skin or a direct sighting."
+            },
+            "warnings": {
+                "icon1": "./images/animallibrary/warning-logos/snake/viper.png",
+                "warningName1": "Pit Vipers",
+                "warningMessage1": "New Jersey is home to two types of venomous snakes which include the Northern Copperhead and the Timber Rattlesnake.",
+                "icon2": "./images/animallibrary/warning-logos/snake/protect.png",
+                "warningName2": "Protection Steps",
+                "warningMessage2": "Maintain the height of your lawn, keep your property free of mulch and debris piles and remove any food that attracts rodents.",
+                "icon3": "./images/animallibrary/warning-logos/snake/temp.png",
+                "warningName3": "Thermostat",
+                "warningMessage3": "Snakes are cold-blooded which means they rely on their outside environment to regulate their temperature. A snake in colder climates will broomate to where their body process slows down and they can last 6 months without eating. In warmer climates, their body process speeds up which means they will be more active and aggressive when looking for food."
+            }
+        },
+        {
+            "id": 11,
+            "name": "Woodpecker",
+            "image": "./images/animallibrary/woodpecker.png",
+            "background": "#FEFFE8",
+            "textColor": "#272017",
+            "info": {
+                "family": "Picidae - (Aviary)",
+                "foodType": "Omnivore",
+                "habitat": "Woodlots and forests and deserts.",
+                "animalInfo": "New Jersey is home to 7 species of woodpeckers ranging in size from about 6-18 inches long. Many of these species are year round residents. Their diet mainly consists of wood-boring insects, grubs, eggs, ants, wasps, bees, and pupae. Woodpeckers are dependent on trees for food and shelter, but it is common to see woodpeckers nesting in the side of houses, sheds, telephone poles and garages. The three main woodpeckers that cause damage to homes and other manmade structures are the Downy, Hairy, and Pileated woodpeckers."
+            },
+            "warnings": {
+                "icon1": "./images/animallibrary/warning-logos/woodpecker/head.png",
+                "warningName1": "Head Strong",
+                "warningMessage1": "Woodpeckers do not suffer from headaches or concussions despite all the head banging.",
+                "icon2": "./images/animallibrary/warning-logos/woodpecker/worm.png",
+                "warningName2": "Grub Grabber",
+                "warningMessage2": "Woodpeckers listen to the sounds of grubs crawling under tree bark. Once the spot is found, they drill into the wood with heavy blows of their bill.",
+                "icon3": "./images/animallibrary/warning-logos/woodpecker/chisel.png",
+                "warningName3": "Chiseled-Billed",
+                "warningMessage3": "Cells in the tips of their beaks are constantly replaced which prevents them from wearing down over time."
+            }
         }
-
-
-
     ]
 }

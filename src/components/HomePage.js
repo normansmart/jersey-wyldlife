@@ -4,7 +4,7 @@ import LandingPage from "./LandingPage";
 import ServiceList from "./ServiceList";
 
 
-function HomePage() {
+const HomePage=()=> {
 
     const service = data.services
 
