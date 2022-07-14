@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import NavBar from './components/Navigation';
 import HomePage from './components/HomePage';
 import AnimalLibrary from './components/AnimalLibrary';
+import AdminPage from './components/AdminPage';
 
 
 function App() {
@@ -15,19 +16,22 @@ function App() {
 
    
 
-     <Router>
+    //  <Router>
 
-        <NavBar />
+    //     <NavBar />
+
+    //     <Routes>
+
+    //     <Route path="/" exact element={<HomePage/>} />
+    //     <Route path="/animals"  element={<AnimalLibrary/>} />
+
+    //     </Routes>
+
+    //   </Router>
 
 
-        <Routes>
-
-        <Route path="/" exact element={<HomePage/>} />
-        <Route path="/animals"  element={<AnimalLibrary/>} />
-
-        </Routes>
-
-      </Router>
+    <AdminPage/>
+    
 
    
   );

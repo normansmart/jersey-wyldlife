@@ -25,11 +25,11 @@ function ServiceCard({services}) {
 
                 </div>
 
-                <a className="service-link">
+                {/* <a className="service-link">
                     <h2 className="view-more-button" style={{backgroundColor: services.backgroundColor}}>
                         <span style={{color: services.textColor}}> READ MORE </span>
                     </h2>
-                </a>
+                </a> */}
 
             </div>
 

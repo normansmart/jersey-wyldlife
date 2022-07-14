@@ -11,7 +11,7 @@ const NavBar = () => {
             <li className="link">
                 <Link to='/animals'> Animal Library </Link>
             </li>
-
+ 
         </nav>
     );
 }

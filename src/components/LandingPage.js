@@ -44,7 +44,7 @@ function LandingPage({ backgroundimage }) {
                         <input type="text" name="number" placeholder="Phone number" />
                         <input type="text" name="email" placeholder="Email address" />
                         <p> Give us a short description of your problem. </p>
-                        <textarea type="text" id="issue-description" name="complaint" rows={5} cols={40}/>
+                        <textarea type="text" id="issue-description" name="complaint" rows={4} cols={4}/>
                         <br />
                         <button id="button"
                             type="submit"
