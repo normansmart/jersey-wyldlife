@@ -5,12 +5,11 @@ import "./admin.css"
 function ContractForm({ ContractSubmit }) {
     return (
         <>
-
-
             <div className="admin-contact-form">
-                <form className="admin-form">
+                <form className="admin-form" onSubmit={() => console.log("click")}>
                     <input id="name" type="text" name="name" placeholder="Client Full Name" />
-                    <input type="text" name="address" placeholder="Street Address/City/State/Zip Code" />
+                    <input type="text" name="address" placeholder="Street Address Line 1" />
+                    <input type="text" name="address" placeholder="Street Address Line 2" />
                     <input type="text" name="number" placeholder="number" />
                     <input type="text" name="email" placeholder="email" />
                     <input type="text" name="DOI" placeholder="Date of inspection" />
@@ -25,11 +24,10 @@ function ContractForm({ ContractSubmit }) {
                     <input type="text" name="total" placeholder="Total" />
                     <input type="text" name="signedPaid" placeholder="Signed and Paid?" />
 
-
                     <button id="button"
                         type="submit"
                         name="submit"
-                        className="submit" onClick={()=> ContractSubmit()}>
+                        className="submit" >
                         SUBMIT </button>
 
                 </form>

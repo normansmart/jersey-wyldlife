@@ -13,27 +13,36 @@ function App() {
 
 
   return (
-
-   
-
-    //  <Router>
-
-    //     <NavBar />
-
-    //     <Routes>
-
-    //     <Route path="/" exact element={<HomePage/>} />
-    //     <Route path="/animals"  element={<AnimalLibrary/>} />
-
-    //     </Routes>
-
-    //   </Router>
+    <>
 
 
-    <AdminPage/>
-    
 
-   
+
+
+      <Router>
+
+        <NavBar />
+
+        <Routes>
+
+          <Route path="/" exact element={<HomePage />} />
+          <Route path="/animals" element={<AnimalLibrary />} />
+
+
+        </Routes>
+
+
+        <Routes>
+        <Route path='/admin' element={<AdminPage />} />
+        </Routes>
+
+      </Router>
+
+
+      <AdminPage />
+
+
+    </>
   );
 }
 

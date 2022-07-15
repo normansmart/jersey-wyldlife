@@ -4,6 +4,24 @@ import React from "react";
 function LandingPage({ backgroundimage }) {
 
 
+    function addNewRequest(e) {
+        e.preventDefault();
+
+        fetch("http://localhost:9292/animal_control_requests", {
+            method: 'POST',
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify(
+                {
+                    name: e.target.name.value,
+                    phone_number: e.target.number.value,
+                    email: e.target.email.value,
+                    description: e.target.complaint.value,
+                }
+            )
+        })
+    }
+
+
     return (
         //container for the landing page. The section of the page itself has a background image dependent on the parameter input from parent
         <>
@@ -39,7 +57,8 @@ function LandingPage({ backgroundimage }) {
 
                     {/* Entry form for complaint and personal information */}
 
-                    <form>
+                    <form onSubmit={(e)=> addNewRequest(e)}>
+
                         <input id="name" type="text" name="name" placeholder="Full Name" />
                         <input type="text" name="number" placeholder="Phone number" />
                         <input type="text" name="email" placeholder="Email address" />
