@@ -17,10 +17,19 @@ const AdminPage = () => {
     useEffect(() => {
         fetch("http://localhost:9292/completed_request_forms")
         .then(response => response.json())
-        .then(setContracts())
-        
+        .then(setContracts)
+
     },[])
     console.log(contracts)
+
+    useEffect(() => {
+        fetch("http://localhost:9292/animal_control_requests")
+        .then(response => response.json())
+        .then(setRequests)
+    },[])
+    console.log(requests)
+
+    
 
     function addNewContract(e) {
         e.preventDefault();
@@ -52,7 +61,7 @@ const AdminPage = () => {
                 }
             )
         })
-            .then(setContracts())
+        console.log('button pressed')
     }
 
 

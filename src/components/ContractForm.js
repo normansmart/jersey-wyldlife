@@ -3,12 +3,15 @@ import React from "react";
 import "./admin.css"
 
 function ContractForm({ ContractSubmit }) {
+
+
+    
     return (
         <>
 
 
             <div className="admin-contact-form">
-                <form className="admin-form">
+                <form className="admin-form"  onSubmit={ (e)=> ContractSubmit(e)}>
                     <input id="name" type="text" name="name" placeholder="Client Full Name" />
                     <input type="text" name="address" placeholder="Street Address Line 1" />
                     <input type="text" name="address2" placeholder="Street Address Line 2" />
@@ -28,16 +31,9 @@ function ContractForm({ ContractSubmit }) {
                     <input type="text" name="deposit" placeholder="Deposit" />
                     <input type="text" name="total" placeholder="Total" />
                     <input type="text" name="signedPaid" placeholder="Signed and Paid?" />
-
-
-                    <button id="button"
-                        type="submit"
-                        name="submit"
-                        className="submit" onClick={(e)=> ContractSubmit()}>
-
-
-                            
-                        SUBMIT </button>
+                    <button id="button" type="submit" name='submit' className="submit">
+                        SUBMIT 
+                    </button>
 
                 </form>
 
