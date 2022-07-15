@@ -57,7 +57,8 @@ function LandingPage({ backgroundimage }) {
 
                     {/* Entry form for complaint and personal information */}
 
-                    <form onSubmit={(e)=> addNewRequest(e)}>
+                    <form onSubmit={(e)=> addNewRequest(e)}
+                    >
 
                         <input id="name" type="text" name="name" placeholder="Full Name" />
                         <input type="text" name="number" placeholder="Phone number" />

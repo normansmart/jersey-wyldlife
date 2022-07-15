@@ -47,6 +47,7 @@ function ContractCard({ contract , edit, remove}) {
 
 
 
+
                 </div>
 
             </div>
