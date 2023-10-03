@@ -32,28 +32,26 @@ function App() {
 
 
   return (
-    <>
-  
 
-      <Router>
+   
 
-        <NavBar />
+    //  <Router>
 
-        <Routes>
+    //     <NavBar />
 
-          <Route path="/" exact element={<HomePage addRequest={addNewRequest}/>} />
+    //     <Routes>
 
-          <Route path="/animals"  element={<AnimalLibrary addRequest={addNewRequest}/>} />
-     
-          {/* <Route path='/admin' element={<AdminPage />} /> */}
-        
-        </Routes>
-      </Router>
+    //     <Route path="/" exact element={<HomePage/>} />
+    //     <Route path="/animals"  element={<AnimalLibrary/>} />
+
+    //     </Routes>
+
+    //   </Router>
 
 
+    <AdminPage/>
     
-    
-    </>
+
    
   );
 }

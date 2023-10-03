@@ -3,6 +3,9 @@ import React from "react";
 import "./admin.css"
 
 function ContractForm({ ContractSubmit }) {
+
+
+    
     return (
         <>
             <div className="admin-contact-form">
@@ -27,10 +30,11 @@ function ContractForm({ ContractSubmit }) {
                     <input type="text" name="total" placeholder="Total" />
                     <input type="text" name="signedPaid" placeholder="Signed and Paid?" />
 
+
                     <button id="button"
                         type="submit"
                         name="submit"
-                        className="submit" >
+                        className="submit" onClick={()=> ContractSubmit()}>
                         SUBMIT </button>
 
                 </form>

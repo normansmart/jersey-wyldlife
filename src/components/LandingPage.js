@@ -3,6 +3,22 @@ import React from "react";
 //Landing page for each page of site
 function LandingPage({ backgroundimage }) {
 
+    function addNewRequest(e) {
+        e.preventDefault();
+
+        fetch("http://localhost:9292/animal_control_requests", {
+            method: 'POST',
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify(
+                {
+                    name: e.target.name.value,
+                    phone_number: e.target.number.value,
+                    email: e.target.email.value,
+                    description: e.target.complaint.value,
+                }
+            )
+        })
+    }
 
     function addNewRequest(e) {
         e.preventDefault();
