@@ -29,7 +29,7 @@ const AnimalLibrary= () =>{
                 <div className="intro-text">
 
                     <h1>OUR<br /> WYLDLIFE</h1>
-                    <p> Short description of page </p>
+                
 
                 </div>
 

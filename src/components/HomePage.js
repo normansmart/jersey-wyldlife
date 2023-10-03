@@ -33,9 +33,7 @@ console.log(service)
                     <h1>WE ARE<br/> JERSEY WYLDLIFE</h1>
                     <p> Jersey WyldLife LLC is a full-service humane nuisance wildlife removal company serving Northern
                         NJ and the
-                        surrounding areas. We specialize in urban and suburban wildlife damage management for both
-                        residential and
-                        commercial customers.
+                        surrounding areas.
                     </p>
 
                 </div>

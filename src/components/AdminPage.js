@@ -1,8 +1,8 @@
 import React from "react";
-import { useState } from "react";
+import { useState , useEffect} from "react";
 import ContractForm from "./ContractForm";
 import CompletedList from "./CompletedList";
-
+import RequestList from "./RequestList";
 
 const AdminPage = () => {
 
@@ -64,7 +64,7 @@ const AdminPage = () => {
     }
 
 
-    function handleSubmitUpdate(contract) {
+    function handleSubmitUpdate(e , contract) {
         fetch(`http://localhost:9292/completed_request_forms/${contract.id}`, {
             method: "PATCH",
             headers: {
@@ -102,13 +102,13 @@ const AdminPage = () => {
     }
 
 
-    function handleDeleteClickRequest(contract) {
-        fetch(`http://localhost:9292/animal_control_requests/${e.target.id}`, {
+ 
+
+    function handleDeleteRequests(request) {
+        fetch(`http://localhost:9292/animal_control_requests/${request.id}`, {
             method: "DELETE"
         })
     }
-
-
 
 
 
@@ -124,8 +124,8 @@ const AdminPage = () => {
 
             <ContractForm ContractSubmit={addNewContract} />
 
-           <CompletedList contracts={contracts} edit={handleSubmitUpdate} />
-            { }
+           <CompletedList contracts={contracts} edit={handleSubmitUpdate} remove={handleDeleteClick}/>
+          <RequestList requests={requests} remove={handleDeleteRequests}/>
 
         </>
     )

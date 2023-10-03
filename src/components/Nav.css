@@ -1,0 +1,69 @@
+nav {
+  width: 100%;
+  height: 80px;
+  background: #f7fff6f1;
+  color: #4B6E49;
+  display: inline-block;
+
+  position: fixed;
+  z-index: 2;
+
+  border: 3px solid #fe1818;
+
+}
+
+
+
+
+
+.navli {
+  width: 50%;
+  font-size: 19px;
+  font-weight: 600;
+  text-align: center;
+
+}
+
+.home-button {
+  width: 30%;
+  height: 100%;
+  margin: 0;
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: aqua;
+}
+
+
+.back {
+  width: 50%;
+}
+
+
+nav a {
+  color: #4B6E49;
+  text-decoration: none;
+}
+
+nav a.current {
+  color: #000000;
+  font-weight: bold;
+}
+
+
+
+#myLinks {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  float: left;
+  list-style: none;
+}
+
+.icon-container {
+  display: none;
+}

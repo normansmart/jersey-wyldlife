@@ -36,18 +36,11 @@ function ContractCard({ contract , edit, remove}) {
 
 
                     <button id="button"
-                        className="submit" onClick={()=> remove(contract)}>  
+                        className="submit" onClick={()=> remove(contract)}> DELETE 
                     </button>
-
-
-
-
+                    
                     <button id="button"
                         className="submit" onClick={() => edit(contract)}>EDIT  </button>
-
-
-
-
                 </div>
 
             </div>

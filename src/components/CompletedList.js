@@ -4,6 +4,7 @@ import ContractCard from "./ContractCard";
 function CompletedList({contracts , edit , remove}){
 
 const contractList = contracts.map(
+   
    (contract) => {
     return <ContractCard key={contract.id} contract={contract} edit={edit} remove={remove}/>
    }
@@ -15,8 +16,6 @@ const contractList = contracts.map(
 
        <>
        {contractList}
-
-
        </> 
     )
 }

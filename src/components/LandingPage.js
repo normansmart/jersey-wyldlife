@@ -31,10 +31,7 @@ function LandingPage({ backgroundimage }) {
                 {/* container for the info box on the side in landing page container */}
                 <div className="title-text">
 
-                    <img className="landing-logo" src={require("./images/home-logo.png")} />
-
-                    <h3 className="description"> Serving Northern New Jersey and Surrounding Areas </h3>
-
+                    <img className="landing-logo" src={require("./images/form-logo.png")} />
 
                     <div className="landing-info">
 
